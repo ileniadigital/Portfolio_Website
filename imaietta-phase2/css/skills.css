@@ -1,0 +1,100 @@
+/**************************************************Skills & AChievements******************************************************************/
+body{
+    display: grid;
+    grid-template-rows: 1fr 11fr 0.75fr;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    justify-content: center;
+    align-items: top;
+}
+
+main{
+    margin: 2%;
+    padding-left: 2%;
+}
+
+h2{
+    font-size: 1.75rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+/*********************Skill bar**********************/
+/*Followed tutorial by W3Schools for skill bar*/
+.skillsList{
+    margin-bottom: 5%;
+}
+
+.skillBar{
+    margin-left: 3%;
+}
+
+.skillBar{
+    font-size: 1.5rem;
+}
+
+.bar{
+    width: 100%;
+    background-color: rgba(255,255,255, 0.5);
+    margin: 1.5%;
+    font-weight: bold;
+}
+
+.skill{
+    text-align: left;
+    padding: 1%;
+    background-color:#ed969c;
+}
+
+.java, .python, .premiere_afterfx{
+    width: 60%;
+}
+
+.photoshop{
+    width: 65%;
+}
+
+.html_css, .maya, .styly{
+    width: 75%;
+}
+
+.illustrator{
+    width: 70%;
+}
+.php, .javascript, .unity{
+    width: 25%;
+}
+
+/*Achievements*/
+#achievements li{
+    list-style-type: square;
+    padding-bottom: 2%;
+}
+
+#achievements p, #achivements a{
+    font-size: 1em;
+}
+
+/**************************************************Aside menu******************************************************************/
+
+#side_menu{
+    grid-area: aside;
+    margin-left: auto;
+    margin-right:1%;
+    line-height: 2;
+    font-weight: bold;
+    position: fixed;
+    overflow-y: auto;
+    top:15%;
+    right: 0;
+    font-size: 1.25rem;
+}
+
+#side_menu ul{
+    list-style-type: none;
+}

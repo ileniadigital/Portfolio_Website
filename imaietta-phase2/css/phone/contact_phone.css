@@ -1,0 +1,65 @@
+/**************************Landing section**************************/
+#project{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.1em solid #f9cc00;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+button{
+    margin: 3%;
+    padding: 1% 3% 1% 3%;
+    border-radius: 7%;
+    background-color: #f9cc00;
+}
+
+button a:hover{
+    color: white;
+}
+/**************************Reach links**************************/
+#contact{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#reach{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+#reach li{
+    list-style-type: none;
+}
+
+figure{
+    text-align: center;
+}
+
+figcaption{
+    padding-top: 2%;
+    font-size: 1.2em;
+}
+
+#contact h3{
+    font-size: 1.5em;
+    padding-top: 2%;
+}
+/*Icons*/
+.icon{
+    width: 40%;
+}

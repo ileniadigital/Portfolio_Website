@@ -1,0 +1,93 @@
+/*************************************Basic styling*************************************/
+#homepage{
+    display: grid;
+    grid-template-rows: 1fr 4fr 2fr 0.75fr;
+}
+
+main p, main h2{
+    color: #003e8b;
+}
+/*************************************Landing section*************************************/
+#landing{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+/*Headshot with overlay*/
+#headshot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#headshot img {
+    display: block;
+    height: 100%;
+    width: auto;
+}
+
+hr{
+    border-top: 0.15rem solid #f9cc00;
+    margin-top: 0;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(62, 7, 244);
+}
+
+#developer h2, #designer h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+#developer p, #designer p{
+    font-size: 1.20rem;
+}
+
+#developer{
+    margin-bottom: 10%;;
+    margin-left: 5%;
+}
+#designer{
+    margin-top: 10%;
+    margin-left: 7%;
+}
+
+/*************************************Latest section*************************************/
+#latest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+}
+#latest h3{
+    font-size: 2rem;
+}
+/*
+#posts{
+    margin-left: 10%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-items: center;
+}
+
+#posts img{
+    width: 50%;
+    
+}
+*/

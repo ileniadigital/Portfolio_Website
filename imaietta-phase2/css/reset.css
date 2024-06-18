@@ -1,0 +1,16 @@
+body, h1, h2, h3, h4, h5, h6, p, header, hgroup, table, section, article, aside, footer, nav, main{
+    margin:0;
+    padding: 0;
+    border:0;
+    font-size:100%;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif;
+}
+
+p, a, ul, li, figcaption, div{
+    font-family: sans-serif;
+}
+

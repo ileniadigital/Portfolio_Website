@@ -1,0 +1,103 @@
+@media only screen and (max-width: 768px){
+    /*Basic styling*/
+    body{
+        width: 100%;
+    }
+
+    footer, header{
+        background-color: #001545;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #menu, #icons{
+        order: 2;
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a:hover{
+        color:#f9cc00;
+    }
+
+    a, a:visited{
+        font-size: 1.15rem;
+        text-decoration: none;
+        color: white;
+    }
+
+
+    /***********************Header*****************************/
+
+    header {
+        grid-template-rows: 1fr 1fr 2fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "logo"
+            "name"
+            "menu";
+        border-bottom: 0.05em solid #f9cc00 ;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #menu{
+        gap:0.5rem;
+        grid-area: "menu";
+        margin: auto;
+        margin-right: 7%;
+        flex-direction: column;
+    }
+
+
+    /*Logo*/
+    #logo{
+        grid-area: "logo";
+        margin: auto;
+    }
+
+    #logo img{
+        border-radius: 100%;
+        width: 5rem;
+        
+    }
+
+    header h1{
+        font-size: 2rem;
+        grid-area: "name";
+        margin: auto;
+    }
+
+
+    /*****************************Footer******************************/
+    footer{
+        grid-template-rows: 3fr 2fr;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        border-top: 0.05em solid #f9cc00 ;
+        /*box-shadow: 0 -0.1em 0.1em rgba(0, 0, 0, 0.1);*/
+
+    }
+
+    /*Social media icons*/
+    #icons{
+        margin:auto;
+        gap: 7rem;
+
+    }
+
+    footer img {
+        width: 3em;
+    }
+
+    footer p {
+        margin: auto;
+        font-style: italic;
+        font-size: 1.15rem;
+        padding-left: 3%;
+    }
+}

@@ -1,0 +1,75 @@
+/*Basic styling*/
+body{
+    width: 100%;
+}
+
+footer, header{
+    background-color: #001545;
+    display: grid;
+    align-items: center;
+}
+
+#menu, #icons{
+    margin-left: auto;
+    order: 2;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+a:hover{
+    color:#f9cc00;
+}
+
+a, a:visited{
+    font-size: 1.15rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+/***********************Header*****************************/
+
+header {
+    grid-template-columns: 1fr 4fr 2fr;
+    border-bottom: 0.05em solid #f9cc00 ;
+}
+
+#menu{
+    gap:10%;
+}
+
+/*Logo*/
+#logo img{
+    border-radius: 100%;
+    width: 5rem;
+    float: left;
+}
+
+header h1{
+    font-size: 2rem;
+}
+
+
+/*****************************Footer******************************/
+footer{
+    grid-template-columns: 3fr 2fr;
+    border-top: 0.05em solid #f9cc00 ;
+    /*box-shadow: 0 -0.1em 0.1em rgba(0, 0, 0, 0.1);*/
+
+}
+
+/*Social media icons*/
+#icons{
+    margin-left: 50%;
+}
+
+footer img {
+    width: 30%;
+}
+
+footer p {
+    font-style: italic;
+    font-size: 1.15rem;
+    padding-left: 3%;
+}

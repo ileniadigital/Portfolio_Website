@@ -1,0 +1,118 @@
+/**************************************************General******************************************************************/
+body{
+    background-color: #001545;
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 3fr 0.75fr;
+}
+
+main{
+    align-items: center;
+    grid-area: main;
+    margin-left: 5%;
+}
+
+#main{
+    display: grid;
+    grid-template-areas: "main aside";
+    grid-template-rows: 5fr 1fr;
+    justify-content: center;
+    align-items: top;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.75rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+h2, h3, h4, h5, h6{
+    padding-bottom: 0.75%;
+}
+/**************************************************About me******************************************************************/
+#bio{
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#picture_me{
+    width: 70%;
+}
+
+figcaption{
+    font-size: 0.75em;
+    text-align: center;
+    padding-right: 25%;
+}
+
+/**************************************************Experience & Education******************************************************************/
+#experience ul, #education ul{
+    list-style-type: none;
+}
+
+#experience li, #education li{
+    margin-bottom: 3%;
+}
+
+.logo{
+    width: 6em;
+}
+
+.job, .school{
+    display: flex;
+    align-items: flex-start;
+    border: 0.01em solid #f9cc00;
+    padding: 1%;
+}
+
+.mainInfo{
+    padding-left: 2%;
+}
+
+.mainInfo p, .mainInfo ul{
+    padding-top: 1%;
+}
+
+.subjects ul, .subjects li{
+    list-style-type: square;
+}
+
+#education .logo{
+    width: 5.5em;
+}
+
+#lde ul{
+    padding:0;
+    margin: 0;
+}
+
+
+/**************************************************Aside menu******************************************************************/
+
+#side_menu{
+    grid-area: aside;
+    margin-left: auto;
+    margin-right:8em;
+    line-height: 2;
+    font-weight: bold;
+    position: relative;
+    overflow-y: auto;
+    right: 0;
+    top:10%;
+    font-size: 1.25rem;
+}
+
+#side_menu ul{
+    list-style-type: none;
+}

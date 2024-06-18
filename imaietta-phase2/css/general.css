@@ -1,0 +1,57 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Murecho&family=Roboto&display=swap');
+
+/*General settings for the website*/
+body{
+    background-color: #001545;
+    color: white;
+}
+
+a:hover, a:visited:hover{
+    color:#f9cc00;
+}
+
+/* a, a:visited{
+    color: white;
+} */
+/*Text*/
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Arimo', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.25em;
+}
+
+h4{
+    font-size: 1.20em;;
+}
+
+h5{
+    font-size: 1.15em;
+}
+
+h6{
+    font-size: 1em;
+}
+
+p, h1, h2, h3, h4, h5, h6, input, li, ul{
+    color: white;
+}

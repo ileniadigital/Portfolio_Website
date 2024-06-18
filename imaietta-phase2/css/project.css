@@ -1,0 +1,77 @@
+/***************************Page layout***************************/
+body{
+    display: grid;
+    grid-template-rows: 1fr 6fr 0.75fr;
+
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/***************************Description***************************/
+#description{
+    margin: 2% 0% 2% 0%;
+    padding-left: 3%;
+}
+
+#description h2{
+    font-size: 2rem;
+}
+
+#description h3{
+    padding-top: 5%;
+    font-size: 1.75em;
+}
+
+#description h4{
+    font-size: 1.50em;
+}
+
+#description h2, h3, h4{
+    padding-bottom: 3%;
+    padding-top: 1%;
+}
+
+#description p{
+    text-align: justify;
+    font-size: 1.15rem;
+}
+
+/***************************Images & Videos***************************/
+#pics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pics img, #pics video{
+    width: 20rem;
+    height: auto;
+    border: 0.2rem solid #f9cc00;
+}
+
+
+figcaption{
+    padding-top: 2%;
+    text-align: center;
+}
+
+/***************************Embedded STYLY***************************/
+iframe{
+    border: 0.2rem solid #f9cc00;
+}
+
+#project3d{
+    padding-right: 2%;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#project3d #description{
+    padding-right: 5%;
+    padding-left: 2%;
+}
